@@ -1,4 +1,5 @@
-/* Estrutura e estilo do site */
+/* Estrutura do site
+*/
 * {
 	margin:0;
 	padding: 0;
@@ -10,15 +11,12 @@ body {
 	margin: 15px;
 }
 
-
 #container {
-	background: #ede9cc;
+	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
 	margin: 0 auto;
 	min-width: 740px;
 	max-width: 1180px;
 }
-
-
 
 #topo {
 	position: relative;
@@ -86,12 +84,14 @@ a.reserva {
 	text-transform: uppercase;
 	background: #a29750;
 	color: #fff5b0;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	float: right;
 }
 
-#menu{
-	margin-top: 5px;
+/* Barra de navegação vertical
+*/
+#menu {
+	margin-top: 15px;
 }
 
 ul {
@@ -100,33 +100,102 @@ ul {
 
 ul#navegacao {
 	float: left;
-		padding-top: 10px;
 }
 
 ul#navegacao a {
 	text-transform: uppercase;
 	font-size: 0.8em;
-
 	padding: 5px;
 	color: #6e672c;
-	line-height:30px;
+	line-height: 30px;
+}
+
+ul#navegacao a:hover {
+	background: #fdf6be;
 }
 
 .depoimento {
-	padding-top: 16px;
 	width: 226px;
 	height: 164px;
 	float: right;
+}
+
+/* Área dos conteúdos*/
+
+#area-principal {
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#area-lateral {
+	float: right;
+	width: 50%;
+	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0px;
+	font-size: 0.8em;
+}
+
+.conteudo {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#rodape {
+	clear: both;
+	padding: 16px;
+	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+	color: #7d7640;
+	font-size: small;
 
 }
 
+/*editando os textos*/
 
+#conteudo h3 {
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
 
+#conteudo p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
 
+/*edita conteudo da lateral*/
 
+#conteudos li {
+	padding: 15px;
+	border-bottom: 1px solid #f3edcb;
+	height: 6em;
+}
 
+#conteudos li a img{
+	float: left;
+	margin-right: 8px;
+	margin-top: -12px;
+}
 
+#conteudos li a p{
+	color: #000;
+	font-size: 1.0em;
+}
 
+#conteudos li a h3{
+	margin-top: -19px;
+	font-size: 0.9em;
+	color: #615b2b;
+	padding: 10px;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+
+}
+
+#conteudos li:hover {
+	background: #f6f3d6;
+	cursor: pointer;
+}
 
 
 
