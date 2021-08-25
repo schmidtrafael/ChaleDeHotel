@@ -15,7 +15,7 @@ body {
 	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
 	margin: 0 auto;
 	min-width: 740px;
-	max-width: 1180px;
+	max-width: 1480px;
 }
 
 #topo {
@@ -29,7 +29,7 @@ body {
 	position: absolute;
 	background: url(../imagens/topo-imagem-principal.png) no-repeat;
 	width: 100%;
-	height: 250px;
+	height: 600px;
 	top: 0;
 	left: 0;
 	z-index: 1;
@@ -191,6 +191,8 @@ ul#navegacao a:hover {
 	background: url(../imagens/ornamento.png) no-repeat center right;
 
 }
+
+/*fundo do conteudo lateral em branco*/
 
 #conteudos li:hover {
 	background: #f6f3d6;
