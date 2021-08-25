@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<div id="container"><!-- inicio container-->
+		<div id="topo"><!-- inicio topo-->
+			
+			<div id="area-logo">
+				<h1 class="logo">
+					<a href="">Chalé Hotel</a>
+				</h1>
+			</div>
+
+			<div id="area-menu">
+				<div id="conteudo-menu">
+					
+					<div id="menu-locais">
+						<span class="locais">
+							RS - RJ - MS - SC - PA - BA - MG - CE
+						</span>
+						<a class="reserva" href="">Reservar</a>
+						<div style="clear: both;"></div>
+					</div>
+
+					<div id="menu">
+						<ul id="navegacao">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="ofertas.html">Ofertas</a></li>
+							<li><a href="gastronomia.html">Gastronomia</a></li>
+							<li><a href="contato.html">Contato</a></li>
+						</ul>
+
+						<img class="depoimento" src="imagens/depoimento.png">
+
+					</div>
+
+				</div>
+            </div>
+                    <div>
+                        <h1 id="titulo">Formulário para reservas</h1>
+                    </div>
+                <br>
+                <form>
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="nome">Nome:</label>
+                            <input type:"text" name="nome" id="nome" required>
+                        </div>
+                        <div class="campo">
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input type:"text" name="sobrenome" id="sobrenome" required>
+                        </div>
+                    </fieldset>     
+                    <br>           
+                    <div class="email">
+                        <label sobrenome>Email:</label>
+                        <input type:"Email" name="email" id="email" required>
+                    </div>     
+                        <br>
+                    </div >
+                     <div class="campo">
+                        <label>Metodo de pagamento:</label>
+                        <label>
+                            <input type="radio" name="pagamento" checked>Débito
+                        </label>
+                        <label>
+                            <input type="radio" name="pagamento">Crédito
+                        </label>
+                        <label>
+                            <input type="radio" name="pagamento">Boleto
+                        </label>
+                        <label>
+                            <input type="radio" name="pagamento">PIX
+                        </label>
+                    </div>
+                    <br>
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label><strong>Prefrerencias de comodidades:</strong></label>
+                
+                            <input type="checkbox" id="comodidade1" name="comodidade1">
+                            <label for="comodidade1">Ar-condicionado</label>
+                
+                            <input Type="checkbox" id="comodidade2" name="comodidade2">
+                            <label for="comodidade2">+ de dois quartos</label>
+                
+                            <input Type="checkbox" id="comodidade3" name="comodidade3">
+                            <label for="comodidade3">Internet</label>
+                
+                            <input Type="checkbox" id="comodidade4" name="comodidade4">
+                            <label for="comodidade4">Piscina</label>
+                
+                            <input Type="checkbox" id="comodidade5" name="comodidade5">
+                            <label for="comodidade5">Lareira</label>
+                        </div>
+                    </fieldset>
+                    <br>
+                
+                    <div class="campo">
+                        <label for="sexo">Sexualidade</label>
+                        <select id="sexo">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>LGBTQIA+</option>
+                        <option>Pref. não dizer</option>
+                        </select>
+                    </div>
+                
+                    <div class="campo">
+                    <br>
+                        (Opcional) Descreva o que você achou do local, se já o visitou anteriomente.
+                    </br>
+                    <textarea row="6" style="width: 26em;" id="descreva" name="descreva"></textarea>
+                    </div>
+                
+                    <button class="botao"type="submit">Enviar</button>
+                
+                </form>
+            </div>
+    
+			</div>
+        </body>
+    </html>
