@@ -5,6 +5,22 @@
 	padding: 0;
 }
 
+/*#clock {
+	padding-top: 26%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+
+#rel {
+	position: absolute;
+	top: 235px;
+	left: 5px;
+	z-index: 3;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(252, 255, 71);
+	background-color: #c2b15f;
+	border: #000;
+}
+
 body {
 	font-family: Helvetica, "Trebuchet MS", sans-serif;
 	background: #fff url(../imagens/bg.png);
