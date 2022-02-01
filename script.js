@@ -20,7 +20,18 @@ function relogio(){
 }
 
 var timer=setInterval(relogio,1000);
-/*
-function mudaCor(el){
-    el.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-}*/
+
+
+var mapApiKey = "AqEwY9YkYDynJdqDyZav0sMpzw0sFydkiPiOZ2HKlUyiBaPkNRBaOqZVmjXckGiQ";
+                                        
+function initMap(){
+    'use strict';
+
+    var map = new Microsoft.Maps.Map("#hplus-map", {
+        credentials: 'Your Bing Maps Key',
+        center: new Microsoft.Maps.Location(51.50632, -0.12714),
+        mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+        zoom: 10
+    });
+
+}

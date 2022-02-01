@@ -1,14 +1,7 @@
-/* Estrutura do site
-*/
 * {
 	margin:0;
 	padding: 0;
 }
-
-/*#clock {
-	padding-top: 26%;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}*/
 
 #rel {
 	position: absolute;
@@ -30,7 +23,7 @@ body {
 #container {
 	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
 	margin: 0 auto;
-	min-width: 740px;
+	min-width: 940px;
 	max-width: 1480px;
 }
 
@@ -169,16 +162,25 @@ ul#navegacao a:hover {
 #area-lateral {
 	overflow: hidden;
 	position: relative;
-/*float: right;*/
+	float: right;
 	width: 50%;
 	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
 	padding-top: 0px;
 	font-size: 0.8em;
 }
 
+#mapa{
+	padding-left: 15px;
+	padding-top: 5px;
+
+}
+
+.conteudos li {
+	padding-top: 100px;
+}
 .conteudo {
 	margin: 0 auto;
-	width: 90%;
+	width: 95%;
 }
 
 #rodape {
@@ -192,22 +194,14 @@ ul#navegacao a:hover {
 
 /*editando os textos*/
 
-#conteudo h3 {
-	color: #7d7640;
-	font-size: 1.1em;
-	padding: 5px 0px;
-}
 
-#conteudo p{
-	font-size: 1em;
-	margin-bottom: 10px;
-}
+
 
 /*edita conteudo da lateral*/
 
 #conteudos li {
 	padding: 15px;
-	border-bottom: 1px solid #f3edcb;
+	border-bottom: 1px solid #ffffff;
 	height: 6em;
 }
 
@@ -215,15 +209,24 @@ ul#navegacao a:hover {
 	float: left;
 	margin-right: 8px;
 	margin-top: -12px;
+	list-style: none;
+
 }
 
+#conteudos ul li {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
 #conteudos li a p{
 	color: #000;
 	font-size: 1.0em;
+	margin-right: 8px;
+	margin-top: 5px;
 }
 
 #conteudos li a h3{
-	margin-top: -19px;
+	margin-top: 1px;
 	font-size: 0.9em;
 	color: #615b2b;
 	padding: 10px;
@@ -231,8 +234,7 @@ ul#navegacao a:hover {
 
 }
 
-/*fundo do conteudo lateral em branco*/
-
+/*Efeito ao passar o mouse*/
 #conteudos li:hover {
 	background: #f6f3d6;
 	cursor: pointer;
