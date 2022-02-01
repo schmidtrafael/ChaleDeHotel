@@ -67,7 +67,7 @@ body {
 	top: 0;
 	right: 0;
 	background: url(../imagens/topo-imagem-lateral.png) no-repeat; ;
-	width: 450px;
+	width: 600px;
 	height: 250px;
 	z-index: 2;
 }
@@ -89,14 +89,32 @@ body {
 }
 
 #menu-locais .locais {
-	float: left;
 	line-height: 2.1em;
 }
 
 a {
 	text-decoration: none;
 }
+button:hover{
+	background-color: rgb(194, 185, 67);
+	transition: all 0.5s ease-in;
+    transition-delay: 0.05s;
+	transform: scale(1.1);
+    transition: all 0.5s;
+}
 
+button {
+	float: right;
+	border: 0;
+	border-radius: 5px;
+	font-weight: bolder;
+	background-color: #a79e4d;
+    color: rgb(12, 12, 12);
+	height: 25px;
+	width: 75px;
+}
+
+/*
 a.reserva {
 	text-transform: uppercase;
 	background: #a29750;
@@ -104,7 +122,7 @@ a.reserva {
 	padding: 5px 10px;
 	float: right;
 }
-
+*/
 /* Barra de navegação vertical
 */
 #menu {
@@ -113,6 +131,7 @@ a.reserva {
 
 ul {
 	list-style: none;
+	padding-top: 40px;
 }
 
 ul#navegacao {
@@ -129,12 +148,6 @@ ul#navegacao a {
 
 ul#navegacao a:hover {
 	background: #fdf6be;
-}
-
-.depoimento {
-	width: 226px;
-	height: 164px;
-	float: right;
 }
 
 /* Área dos conteúdos*/
@@ -159,7 +172,7 @@ ul#navegacao a:hover {
 /*float: right;*/
 	width: 50%;
 	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
-	padding: 20px 0px;
+	padding-top: 0px;
 	font-size: 0.8em;
 }
 

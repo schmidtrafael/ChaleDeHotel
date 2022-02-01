@@ -20,3 +20,7 @@ function relogio(){
 }
 
 var timer=setInterval(relogio,1000);
+/*
+function mudaCor(el){
+    el.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+}*/
